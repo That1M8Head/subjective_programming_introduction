@@ -20,6 +20,8 @@ A copy of the license is included in the file `LICENSE.md`.
 
 This is a subjectively introductory guide to programming in Python and C.
 
+You can https://that1m8head.github.io/subjective_programming_introduction/ebook.pdf[view/download a PDF version of this guide.]
+
 == The chosen programming languages
 
 In this guide, we'll be using Python and C.
