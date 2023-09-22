@@ -5,8 +5,6 @@
 
 = Subjective Programming Introduction
 
-A subjectively introductory guide to programming in Python and C
-
 == License notice
 
 Copyright (C)  2023  Arsalan Kazmi
@@ -17,6 +15,10 @@ or any later version published by the Free Software Foundation; +
 with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
 
 A copy of the license is included in the file `LICENSE.md`.
+
+== Introduction
+
+This is a subjectively introductory guide to programming in Python and C.
 
 == The chosen programming languages
 
@@ -48,7 +50,7 @@ Any computer will work, as long as it supports Python 3.
 
 === Operating system
 
-If you're unfortunate enough to be using Windows, you should use at least Windows 10.
+If you're using Windows, you should use at least Windows 10.
 
 If you're a Mac user, the latest version of macOS is recommended.
 
