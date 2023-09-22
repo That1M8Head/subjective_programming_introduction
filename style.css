@@ -1,0 +1,17 @@
+body {
+    font-family: 'Liberation Serif', 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: beige;
+    margin: 15px auto;
+    max-width: 600px;
+}
+h1, h2, h3 {
+    line-height: 1.2;
+}
+code {
+    display: inline-block;
+    font-family: 'JetBrains Mono', 'Source Code Pro', 'Cascadia Code', monospace;
+    padding: 1px 2px;
+    background-color: #854e1e33;
+}

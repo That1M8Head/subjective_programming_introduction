@@ -2,6 +2,7 @@
 :doctype: article
 :author: Arsalan "Velocity" Kazmi
 :date: 2023-09-22
+:stylesheet: style.css
 
 = Subjective Programming Introduction
 
