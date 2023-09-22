@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.20">
+<meta name="author" content="Arsalan "Velocity" Kazmi">
+<title>Subjective Programming Introduction</title>
+<style>
+body {
+    font-family: 'Liberation Serif', 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: beige;
+    margin: 15px auto;
+    max-width: 600px;
+}
+h1, h2, h3 {
+    line-height: 1.2;
+}
+code {
+    display: inline-block;
+    font-family: 'JetBrains Mono', 'Source Code Pro', 'Cascadia Code', monospace;
+    padding: 1px 2px;
+    background-color: #854e1e33;
+}
+
+</style>
+</head>
+<body class="article">
+<div id="header">
+<h1>Subjective Programming Introduction</h1>
+<div class="details">
+<span id="author" class="author">Arsalan "Velocity" Kazmi</span><br>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_license_notice">License notice</a></li>
+<li><a href="#_introduction">Introduction</a></li>
+<li><a href="#_the_chosen_programming_languages">The chosen programming languages</a></li>
+<li><a href="#_stuff_that_you_need">Stuff that you need</a>
+<ul class="sectlevel2">
+<li><a href="#_computer">Computer</a></li>
+<li><a href="#_operating_system">Operating system</a></li>
+<li><a href="#_terminal_or_command_prompt">Terminal or command prompt</a></li>
+<li><a href="#_text_editor">Text editor</a></li>
+<li><a href="#_c_compiler">C compiler</a></li>
+<li><a href="#_python_3_installation">Python 3 installation</a></li>
+<li><a href="#_got_all_that">Got all that?</a></li>
+</ul>
+</li>
+<li><a href="#_a_simple_example">A simple example</a>
+<ul class="sectlevel2">
+<li><a href="#_printing_hello_world">Printing "Hello World"</a></li>
+<li><a href="#_python_can_look_complex_too">Python can look complex, too</a></li>
+</ul>
+</li>
+<li><a href="#_data_types">Data types</a>
+<ul class="sectlevel2">
+<li><a href="#_representing_whole_numbers">Representing whole numbers</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="_license_notice">License notice</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Copyright &#169;  2023  Arsalan Kazmi</p>
+</div>
+<div class="paragraph">
+<p>Permission is granted to copy, distribute and/or modify this document<br>
+under the terms of the GNU Free Documentation License, Version 1.3<br>
+or any later version published by the Free Software Foundation;<br>
+with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.</p>
+</div>
+<div class="paragraph">
+<p>A copy of the license is included in the file <code>LICENSE.md</code>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_introduction">Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This is a subjectively introductory guide to programming in Python and C.</p>
+</div>
+<div class="paragraph">
+<p>You can <a href="https://that1m8head.github.io/subjective_programming_introduction/ebook.pdf">view/download a PDF version of this guide.</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_chosen_programming_languages">The chosen programming languages</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In this guide, we&#8217;ll be using Python and C.</p>
+</div>
+<div class="paragraph">
+<p>This is so you can both learn the easy way of programming and the hard way,
+and get a balanced learning experience.</p>
+</div>
+<div class="paragraph">
+<p>It&#8217;ll be a bit of a learning experience for me, too.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_stuff_that_you_need">Stuff that you need</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>A computer</p>
+</li>
+<li>
+<p>An operating system</p>
+</li>
+<li>
+<p>A terminal/command prompt</p>
+</li>
+<li>
+<p>A text editor</p>
+</li>
+<li>
+<p>A C compiler</p>
+</li>
+<li>
+<p>A Python 3 installation</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Install <a href="https://fedora.org">Fedora</a> and you&#8217;ll get all of that in one package! :D</p>
+</div>
+<div class="paragraph">
+<p>Otherwise, you can work with what you&#8217;ve got.</p>
+</div>
+<div class="sect2">
+<h3 id="_computer">Computer</h3>
+<div class="paragraph">
+<p>If you&#8217;re reading this on a phone, get a fricking computer. Programming is hell on a mobile device, especially C programming.</p>
+</div>
+<div class="paragraph">
+<p>Any computer will work, as long as it supports Python 3.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_operating_system">Operating system</h3>
+<div class="paragraph">
+<p>If you&#8217;re using Windows, you should use at least Windows 10.</p>
+</div>
+<div class="paragraph">
+<p>If you&#8217;re a Mac user, the latest version of macOS is recommended.</p>
+</div>
+<div class="paragraph">
+<p>If you&#8217;re on Linux, just make sure your packages are up to date.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_terminal_or_command_prompt">Terminal or command prompt</h3>
+<div class="paragraph">
+<p>On Windows 11, it&#8217;s Windows Terminal.</p>
+</div>
+<div class="paragraph">
+<p>On Windows 10 or earlier, it&#8217;s PowerShell. (Don&#8217;t use Command Prompt.)</p>
+</div>
+<div class="paragraph">
+<p>On macOS, it&#8217;s Terminal.</p>
+</div>
+<div class="paragraph">
+<p>On Linux, just search for "terminal" (or use the TTY if you&#8217;re epic)</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_text_editor">Text editor</h3>
+<div class="paragraph">
+<p>The most popular choice for editing code across any OS is <a href="https://code.visualstudio.com">Visual Studio Code</a>. It&#8217;s a super solid pick.</p>
+</div>
+<div class="paragraph">
+<p>You can use Notepad if you&#8217;re on Windows, but you should get a dedicated text editor with syntax highlighting.</p>
+</div>
+<div class="paragraph">
+<p>macOS has TextEdit, but that&#8217;s really more of a rich text editor.</p>
+</div>
+<div class="paragraph">
+<p>On Linux, you&#8217;re spoilt for choice when it comes to text editors. VS Code, as usual, is a good pick, but feel free to browse the web and find an editor that speaks to you. For editing at the terminal, I highly recommend <a href="https://micro-editor.github.io/">Micro</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_c_compiler">C compiler</h3>
+<div class="paragraph">
+<p>On Linux, you should install <code>base-devel</code> or <code>build-essential</code> or whatever it&#8217;s called.</p>
+</div>
+<div class="paragraph">
+<p>On Windows, install <a href="https://www.mingw-w64.org/">MinGW-w64</a>.</p>
+</div>
+<div class="paragraph">
+<p>On macOS, try running <code>gcc</code> in Terminal. You should be prompted to install the Xcode development tools.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_python_3_installation">Python 3 installation</h3>
+<div class="paragraph">
+<p>On Windows or macOS, install <a href="https://python.org">Python</a>. On Linux, you should already have Python.</p>
+</div>
+<div class="paragraph">
+<p>Run <code>python3 -V</code> (<code>python -V</code> on Windows) in your terminal to check it&#8217;s there.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_got_all_that">Got all that?</h3>
+<div class="paragraph">
+<p>Great! Let&#8217;s begin.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_a_simple_example">A simple example</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_printing_hello_world">Printing "Hello World"</h3>
+<div class="sect3">
+<h4 id="_python">Python</h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-python" data-lang="python">print("Hello World!")</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The Python example is very simple. Python&#8217;s a simple language.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_c">C</h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-c" data-lang="c">#include &lt;stdio.h&gt;
+int main() {
+    printf("Hello World!");
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The C example looks much more complex! This is what programming in <em>most</em> languages is like.
+It&#8217;s not that C is too hard, it&#8217;s that Python set your expectations for it to be easy, so comparatively, it&#8217;s a big code block.</p>
+</div>
+<div class="paragraph">
+<p>But this isn&#8217;t a psychology guide, this is programming. Let&#8217;s keep going.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_python_can_look_complex_too">Python can look complex, too</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-python" data-lang="python">def main():
+    print("Hello World!")
+if __name__ == "__main__":
+    main()</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Ooh! Look! Now the Python example is 4 lines long.</p>
+</div>
+<div class="paragraph">
+<p>What&#8217;s going on here, is that we&#8217;re defining a <code>main</code> function, called the main entry point.</p>
+</div>
+<div class="paragraph">
+<p>You don&#8217;t have to define <code>main</code> in Python, because it&#8217;s been done for you.</p>
+</div>
+<div class="paragraph">
+<p>In C, though, you do have to do it yourself.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_data_types">Data types</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In programming, you have the concept of <strong>data types</strong>.</p>
+</div>
+<div class="paragraph">
+<p>Data types, are, obviously enough, types of data.</p>
+</div>
+<div class="paragraph">
+<p>C has <code>int</code>, <code>float</code>, <code>double</code>, <code>long</code>, <code>short</code> and <code>char</code>.</p>
+</div>
+<div class="paragraph">
+<p>Python has <code>int</code>, <code>float,</code>, <code>bool</code>, <code>str</code>, <code>list</code>, <code>tuple</code> and <code>dict</code>.</p>
+</div>
+<div class="paragraph">
+<p>We&#8217;ll keep this simple and use the common types, <code>int</code>, <code>float</code>/<code>double</code> and <code>str</code>/<code>char</code>.</p>
+</div>
+<div class="sect2">
+<h3 id="_representing_whole_numbers">Representing whole numbers</h3>
+<div class="paragraph">
+<p>You can represent whole numbers with <code>int</code>, short for integer, which means whole number.</p>
+</div>
+<div class="sect3">
+<h4 id="_python_2">Python</h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-python" data-lang="python">x = 1 # is int! Python's types are implicit.</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_c_2">C</h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-c" data-lang="c">#include &lt;stdio.h&gt;
+int main() {
+    int x = 1; // C's types are explicit, so you have to declare int.
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>It&#8217;s just a little bit different. As mentioned in the comments, Python has <strong>implicit types</strong>, so you don&#8217;t need to declare the type. In fact, if you do, it errors out.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-python" data-lang="python">Python 3.9.7 (tags/v3.9.7:1016ef3, Aug 30 2021, 20:19:38) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+&gt;&gt;&gt; int x = 1
+SyntaxError: invalid syntax
+&gt;&gt;&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Whereas if you don&#8217;t declare the type in C, the compiler will complain that the variable doesn&#8217;t exist.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-c" data-lang="c">$ ed implicit.c
+implicit.c: No such file or directory
+i
+#include &lt;stdio.h&gt;
+int main() {
+    x = 1
+}
+.
+w
+45
+$ gcc implicit.c
+implicit.c: In function 'main':
+implicit.c:3:5: error: 'x' undeclared (first use in this function)
+    3 |     x = 1;
+      |     ^
+implicit.c:3:5: note: each undeclared identifier is reported only once for each function it appears in
+$</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Don&#8217;t mind the use of <code>ed</code>. Use whatever text editor you want.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+This guide is unfinished and unfortunately ends here. Come back later maybe?
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2023-09-22 14:55:01 UTC
+</div>
+</div>
+</body>
+</html>
